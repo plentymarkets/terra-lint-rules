@@ -1,0 +1,29 @@
+{
+  "name": "terra-lint-rules",
+  "version": "0.0.1",
+  "description": "custom tslint rules",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "release": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plentymarkets/terra-lint-rules.git"
+  },
+  "keywords": [
+    "tslint",
+    "rules"
+  ],
+  "author": "plentymarkets",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/plentymarkets/terra-lint-rules/issues"
+  },
+  "homepage": "https://github.com/plentymarkets/terra-lint-rules#readme",
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  }
+}

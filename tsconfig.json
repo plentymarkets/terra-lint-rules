@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"baseUrl": ".",
+		"importHelpers": true,
+		"lib": ["dom", "es2017"],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noEmitHelpers": true,
+		"noImplicitAny": true,
+		"outDir": "./dist",
+		"removeComments": true,
+		"skipLibCheck": true,
+		"sourceMap": false,
+		"suppressImplicitAnyIndexErrors": true,
+		"target": "es5",
+		"typeRoots": [
+			"../node_modules/@types"
+		]
+	},
+	"include": ["src/rules/*.ts"],
+	"exclude": []
+}
