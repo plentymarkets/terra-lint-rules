@@ -18,6 +18,9 @@
 			"../node_modules/@types"
 		]
 	},
-	"include": ["src/rules/*.ts"],
+	"include": [
+		"src/rules/*.ts",
+		"src/index.ts"
+	],
 	"exclude": []
 }

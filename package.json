@@ -4,8 +4,8 @@
   "description": "custom tslint rules",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "release": ""
+    "build": "rimraf dist && tsc -p tsconfig.json",
+    "release": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/plentymarkets/terra-lint-rules#readme",
   "devDependencies": {
     "@types/node": "^12.11.1",
+    "rimraf": "^3.0.0",
     "tslint": "^5.20.0",
     "typescript": "^3.6.4"
   }
