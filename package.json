@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.json",
-    "release": "npm run build"
+    "release": "npm run build && gulp copy"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@types/node": "^12.11.1",
+    "gulp": "^4.0.2",
     "rimraf": "^3.0.0",
     "tslint": "^5.20.0",
     "typescript": "^3.6.4"
