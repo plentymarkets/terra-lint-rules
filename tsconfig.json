@@ -19,7 +19,6 @@
 		]
 	},
 	"include": [
-		"src/rules/*.ts",
 		"src/index.ts"
 	],
 	"exclude": []

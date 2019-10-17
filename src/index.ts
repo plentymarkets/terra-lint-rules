@@ -1,5 +1,3 @@
-export { Rule as GetSetRule } from './rules/getSetRule';
-export { Rule as MaxDepthRule } from './rules/maxDepthRule';
-export { Rule as MaxFunctionLineCountRule } from './rules/maxFunctionLineCountRule';
-
-export declare const rulesDirectory = "./rules";
+export { Rule as GetSetRule } from './getSetRule';
+export { Rule as MaxDepthRule } from './maxDepthRule';
+export { Rule as MaxFunctionLineCountRule } from './maxFunctionLineCountRule';
