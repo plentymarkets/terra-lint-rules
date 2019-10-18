@@ -1,11 +1,11 @@
 {
 	"name": "@plentymarkets/terra-lint-rules",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "custom tslint rules",
 	"main": "index.js",
 	"scripts": {
 		"build": "rimraf dist && tsc -p tsconfig.json",
-		"release": "npm run build && gulp copy"
+		"release": "npm run build && gulp copy && gulp updateVersion && npm publish"
 	},
 	"repository": {
 		"type": "git",
