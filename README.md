@@ -1,2 +1,2 @@
 # terra-lint-rules
-This repository provides custom TSLint rules
+A set of custom tslint rules for static code analysis of Angular/TypeScript projects.
