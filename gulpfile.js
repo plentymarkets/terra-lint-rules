@@ -1,5 +1,5 @@
 const { series, src, dest } = require('gulp');
-var config = require('./gulp.config.js')();
+const config = require('./gulp.config.js')();
 
 //copy package.json to dist
 function copyPackageJson() {
