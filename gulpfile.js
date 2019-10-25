@@ -16,10 +16,16 @@ function copyReadme() {
         .pipe(dest(config.destinations.dist));
 }
 
+//copy readme to dist
+function copyRules() {
+    return src(config.sources.rules)
+        .pipe(dest(config.destinations.dist));
+}
+
 /**
  * Copies all the files to the dedicated deploy folder
  **/
-const copy = series(copyPackageJson, copyReadme);
+const copy = series(copyPackageJson, copyReadme, copyRules);
 exports.copy = copy;
 
 
