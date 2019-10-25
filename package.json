@@ -4,7 +4,7 @@
 	"description": "custom tslint rules",
 	"main": "index.js",
 	"scripts": {
-		"build": "rimraf dist && tsc -p tsconfig.json && gulp copy",
+		"build": "rm -rf dist && tsc -p tsconfig.json && gulp copy",
 		"release": "npm run build && gulp updateVersion && npm publish dist"
 	},
 	"repository": {
