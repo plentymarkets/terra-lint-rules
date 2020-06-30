@@ -29,9 +29,8 @@
 		"@types/node": "^12.11.1",
 		"gulp": "^4.0.2",
 		"gulp-prompt": "^1.2.0",
-		"rimraf": "^3.0.0",
-		"semver": "^6.3.0",
+		"semver": "^7.3.2",
 		"tslint": "^5.20.0",
-		"typescript": "^3.6.4"
+		"typescript": "~3.9.5"
 	}
 }
