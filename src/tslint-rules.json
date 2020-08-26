@@ -101,10 +101,7 @@
 			"avoid-escape"
 		],
 		"radix": true,
-		"semicolon": [
-			true,
-			"always"
-		],
+		"semicolon": false,
 		"triple-equals": true,
 		"typedef": [
 			true,
@@ -128,11 +125,11 @@
 				"variable-declaration": "nospace"
 			},
 			{
-				"call-signature": "nospace",
-				"index-signature": "nospace",
-				"parameter": "nospace",
-				"property-declaration": "nospace",
-				"variable-declaration": "nospace"
+				"call-signature": "onespace",
+				"index-signature": "onespace",
+				"parameter": "onespace",
+				"property-declaration": "onespace",
+				"variable-declaration": "onespace"
 			}
 		],
 		"variable-name": [
@@ -146,8 +143,7 @@
 			"check-decl",
 			"check-module",
 			"check-operator",
-			"check-separator",
-			"check-typecast"
+			"check-separator"
 		],
 
 		"component-class-suffix": [true, "Component", "ComponentExample", "DirectiveExample"],
@@ -181,12 +177,6 @@
 		"use-lifecycle-interface": true,
 		"use-pipe-transform-interface": true,
 		"prefer-for-of": true,
-		"brace-style": [
-			true,
-			"allman",
-			{
-				"allowSingleLine": false
-			}
-		]
+		"brace-style": false
 	}
 }

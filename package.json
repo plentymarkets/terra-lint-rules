@@ -1,6 +1,6 @@
 {
 	"name": "@plentymarkets/terra-lint-rules",
-	"version": "0.0.5",
+	"version": "0.1.0-prettier.0",
 	"description": "custom tslint rules",
 	"main": "index.js",
 	"scripts": {
