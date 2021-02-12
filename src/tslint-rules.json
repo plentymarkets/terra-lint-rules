@@ -102,7 +102,7 @@
 		],
 		"radix": true,
 		"semicolon": false,
-		"triple-equals": true,
+		"triple-equals": [true, "allow-undefined-check", "allow-null-check"],
 		"typedef": [
 			true,
 			"call-signature",
