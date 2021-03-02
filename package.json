@@ -23,7 +23,7 @@
 	"homepage": "https://github.com/plentymarkets/terra-lint-rules#readme",
 	"peerDependencies": {
 		"tslint": "5.x",
-		"typescript": "3.x"
+		"typescript": "4.x"
 	},
 	"devDependencies": {
 		"@types/node": "^12.11.1",
