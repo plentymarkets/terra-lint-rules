@@ -108,11 +108,11 @@
 			"call-signature",
 			"parameter",
 			"arrow-parameter",
-			"property-declaration",
-			"variable-declaration",
-			"member-variable-declaration",
-			"object-destructuring",
-			"array-destructuring"
+			"property-declaration"
+//			"variable-declaration",
+//			"member-variable-declaration",
+//			"object-destructuring",
+//			"array-destructuring"
 		],
 		"typedef-whitespace": [
 			true,
