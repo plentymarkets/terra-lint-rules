@@ -108,9 +108,9 @@
 			"call-signature",
 			"parameter",
 			"arrow-parameter",
-			"property-declaration"
+			"property-declaration",
 //			"variable-declaration",
-//			"member-variable-declaration",
+			"member-variable-declaration"
 //			"object-destructuring",
 //			"array-destructuring"
 		],
