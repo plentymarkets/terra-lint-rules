@@ -31,6 +31,6 @@
 		"gulp-prompt": "^1.2.0",
 		"semver": "^7.3.2",
 		"tslint": "~6.1.0",
-		"typescript": "~4.3.4"
+		"typescript": "~4.0.7"
 	}
 }
