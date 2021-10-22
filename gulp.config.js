@@ -3,7 +3,7 @@ module.exports = function () {
     var sources = {
         packageJson: './package.json',
         readme: './README.md',
-        rules: 'src/tslint-rules.json'
+        rules: 'src/eslint-rules.json'
     };
 
     var destinations = {

@@ -1,18 +1,16 @@
 {
 	"name": "@plentymarkets/terra-lint-rules",
-	"version": "1.0.1",
-	"description": "custom tslint rules",
-	"main": "index.js",
+	"version": "2.0.0",
+	"description": "custom eslint rules",
 	"scripts": {
-		"build": "rm -rf dist && tsc -p tsconfig.json",
-		"release": "npm run build && gulp updateVersion && gulp copy && npm publish dist"
+		"release": "gulp updateVersion && gulp copy && npm publish dist"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/plentymarkets/terra-lint-rules.git"
 	},
 	"keywords": [
-		"tslint",
+		"eslint",
 		"rules"
 	],
 	"author": "plentymarkets",
@@ -21,16 +19,9 @@
 		"url": "https://github.com/plentymarkets/terra-lint-rules/issues"
 	},
 	"homepage": "https://github.com/plentymarkets/terra-lint-rules#readme",
-	"peerDependencies": {
-		"tslint": "6.x",
-		"typescript": "4.x"
-	},
 	"devDependencies": {
-		"@types/node": "^12.11.1",
 		"gulp": "^4.0.2",
 		"gulp-prompt": "^1.2.0",
-		"semver": "^7.3.2",
-		"tslint": "~6.1.0",
-		"typescript": "~4.0.7"
+		"semver": "^7.3.2"
 	}
 }

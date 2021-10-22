@@ -1,0 +1,206 @@
+{
+	"rules": {
+		"@angular-eslint/component-class-suffix": [
+			"error",
+			{
+				"suffixes": [
+					"Component",
+					"ComponentExample",
+					"DirectiveExample"
+				]
+			}
+		],
+		"@angular-eslint/component-max-inline-declarations": [
+			"error",
+			{
+				"animations": 20,
+				"styles": 1,
+				"template": 1
+			}
+		],
+		"@angular-eslint/component-selector": [
+			"error",
+			{
+				"type": "element",
+				"prefix": [
+					"terra",
+					"tc"
+				],
+				"style": "kebab-case"
+			}
+		],
+		"@angular-eslint/directive-class-suffix": [
+			"error",
+			{
+				"suffixes": [
+					"Directive"
+				]
+			}
+		],
+		"@angular-eslint/directive-selector": [
+			"error",
+			{
+				"type": "attribute",
+				"prefix": "",
+				"style": "camelCase"
+			}
+		],
+		"@angular-eslint/no-input-rename": "error",
+		"@angular-eslint/no-output-on-prefix": "error",
+		"@angular-eslint/no-output-rename": "error",
+		"@angular-eslint/use-lifecycle-interface": "error",
+		"@angular-eslint/use-pipe-transform-interface": "error",
+		"@typescript-eslint/array-type": [
+			"error",
+			{
+				"default": "generic"
+			}
+		],
+		"@typescript-eslint/dot-notation": "off",
+		"@typescript-eslint/explicit-function-return-type": [
+			"error",
+			{
+				"allowExpressions": true
+			}
+		],
+		"@typescript-eslint/member-delimiter-style": [
+			"off",
+			{
+				"multiline": {
+					"delimiter": "none",
+					"requireLast": true
+				},
+				"singleline": {
+					"delimiter": "semi",
+					"requireLast": false
+				}
+			}
+		],
+		"@typescript-eslint/member-ordering": [
+			"error",
+			{
+				"default": [
+					"public-static-field",
+					"protected-static-field",
+					"private-static-field",
+					"public-instance-field",
+					"protected-instance-field",
+					"private-instance-field",
+					"constructor"
+				]
+			}
+		],
+		"@typescript-eslint/naming-convention": "warn",
+		"@typescript-eslint/no-inferrable-types": "off",
+		"@typescript-eslint/no-shadow": "error",
+		"@typescript-eslint/prefer-for-of": "error",
+		"@typescript-eslint/quotes": [
+			"error",
+			"single",
+			{
+				"avoidEscape": true
+			}
+		],
+		"@typescript-eslint/type-annotation-spacing": [
+			"error",
+			{ "before": false, "after": true }
+		],
+		"@typescript-eslint/typedef": [
+			"error",
+			{
+				"parameter": true,
+				"arrowParameter": true,
+				"propertyDeclaration":true,
+				"memberVariableDeclaration": true
+			}
+		],
+		"@typescript-eslint/semi": ["error", "always"],
+		"arrow-body-style": "off",
+		"brace-style": [ "error",
+			"1tbs"
+		],
+		"curly": "error",
+		"constructor-super": "error",
+		"dot-notation": "off",
+		"eol-last": ["error", "always"],
+		"eqeqeq": [
+			"error",
+			"always"
+		],
+		"guard-for-in": "error",
+		"id-denylist": [
+			"error",
+			"any",
+			"Number",
+			"number",
+			"String",
+			"string",
+			"Boolean",
+			"boolean",
+			"Undefined",
+			"undefined"
+		],
+		"indent": [
+			"error",
+			4,
+			{
+				"SwitchCase":  1
+			}
+		],
+		"max-classes-per-file": [
+		        "error",
+		        1
+		],
+		"max-depth": [
+			"error",
+			{ "max" : 5 }
+		],
+		"max-len": [
+			"error",
+			{
+				"code": 150,
+				"ignoreComments":  true,
+				"ignoreUrls":  true,
+				"ignoreStrings":  true,
+				"ignoreTemplateLiterals": true,
+				"ignoreRegExpLiterals": true
+				//            "ignorePattern": "^import |^export {(.*?)}|class [a-zA-Z]+ implements" // todo check pattern
+			}
+
+		],
+		"max-lines-per-function": ["error", 75],
+		"no-bitwise": "off",
+		"no-caller": "error",
+		"no-console": "error",
+		"no-empty": "error",
+		"no-empty-function": [
+			"error",
+			{"allow" : ["constructors"]}
+		],
+		"no-eval": "error",
+		"no-fallthrough": "error",
+		"no-labels": "error",
+		"no-redeclare": "error",
+		"no-restricted-imports": [
+			"error",
+			"rxjs/internal",
+			"rxjs/index",
+			"ngx-bootstrap/tooltip",
+			"@angular/material/tooltip",
+			"@angular/material/grid-list",
+			"@angular/material/bottom-sheet",
+			"@angular/material/snack-bar",
+			"src/app/**"
+		],
+		"no-trailing-spaces": "error",
+		"no-underscore-dangle": "off",
+		"no-unused-expressions": "error",
+		"no-shadow": "off",
+		"no-var": "error",
+		"quotes": [
+			"warn",
+			"single"
+		],
+		"semi": "off"
+	}
+}
