@@ -45,6 +45,7 @@
 				"style": "camelCase"
 			}
 		],
+		"@angular-eslint/no-conflicting-lifecycle": "off",
 		"@angular-eslint/no-input-rename": "error",
 		"@angular-eslint/no-output-on-prefix": "error",
 		"@angular-eslint/no-output-rename": "error",
@@ -163,8 +164,8 @@
 				"ignoreUrls":  true,
 				"ignoreStrings":  true,
 				"ignoreTemplateLiterals": true,
-				"ignoreRegExpLiterals": true
-				//            "ignorePattern": "^import |^export {(.*?)}|class [a-zA-Z]+ implements" // todo check pattern
+				"ignoreRegExpLiterals": true,
+				"ignorePattern": "^import |^export \\{(.*?)\\}|class [a-zA-Z]+ implements"
 			}
 
 		],
@@ -178,6 +179,7 @@
 			{"allow" : ["constructors"]}
 		],
 		"no-eval": "error",
+		"no-extra-boolean-cast": "warn",
 		"no-fallthrough": "error",
 		"no-labels": "error",
 		"no-redeclare": "error",
