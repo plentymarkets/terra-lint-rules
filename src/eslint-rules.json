@@ -104,7 +104,7 @@
 		"eol-last": ["error", "always"],
 		"eqeqeq": [
 			"error",
-			"always"
+			"smart"
 		],
 		"guard-for-in": "error",
 		"id-denylist": [
