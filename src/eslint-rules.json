@@ -64,19 +64,7 @@
 				"allowExpressions": true
 			}
 		],
-		"@typescript-eslint/member-delimiter-style": [
-			"off",
-			{
-				"multiline": {
-					"delimiter": "none",
-					"requireLast": true
-				},
-				"singleline": {
-					"delimiter": "semi",
-					"requireLast": false
-				}
-			}
-		],
+		"@typescript-eslint/member-delimiter-style": "off",
 		"@typescript-eslint/member-ordering": [
 			"error",
 			{
@@ -95,17 +83,7 @@
 		"@typescript-eslint/no-inferrable-types": "off",
 		"@typescript-eslint/no-shadow": "error",
 		"@typescript-eslint/prefer-for-of": "error",
-		"@typescript-eslint/quotes": [
-			"error",
-			"single",
-			{
-				"avoidEscape": true
-			}
-		],
-		"@typescript-eslint/type-annotation-spacing": [
-			"error",
-			{ "before": false, "after": true }
-		],
+		"@typescript-eslint/type-annotation-spacing": "error",
 		"@typescript-eslint/typedef": [
 			"error",
 			{
@@ -141,13 +119,6 @@
 			"Undefined",
 			"undefined"
 		],
-		"indent": [
-			"error",
-			4,
-			{
-				"SwitchCase":  1
-			}
-		],
 		"max-classes-per-file": [
 		        "error",
 		        1
@@ -167,12 +138,11 @@
 				"ignoreRegExpLiterals": true,
 				"ignorePattern": "^import |^export \\{(.*?)\\}|class [a-zA-Z]+ implements"
 			}
-
 		],
+		"max-lines": [ "error" , 450],
 		"max-lines-per-function": ["error", 75],
 		"no-bitwise": "off",
 		"no-caller": "error",
-		"no-console": "error",
 		"no-empty": "error",
 		"no-empty-function": [
 			"error",
@@ -197,12 +167,14 @@
 		"no-trailing-spaces": "error",
 		"no-underscore-dangle": "off",
 		"no-unused-expressions": "error",
+		"no-useless-concat": "error",
 		"no-shadow": "off",
 		"no-var": "error",
 		"quotes": [
 			"warn",
 			"single"
 		],
+		"prefer-template": "error",
 		"semi": "off"
 	}
 }
