@@ -1,15 +1,5 @@
 {
 	"rules": {
-		"@angular-eslint/component-class-suffix": [
-			"error",
-			{
-				"suffixes": [
-					"Component",
-					"ComponentExample",
-					"DirectiveExample"
-				]
-			}
-		],
 		"@angular-eslint/component-max-inline-declarations": [
 			"error",
 			{
