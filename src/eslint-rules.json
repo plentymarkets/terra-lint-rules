@@ -37,6 +37,7 @@
 			}
 		],
 		"@typescript-eslint/dot-notation": "off",
+		"dot-notation": "off",
 		"@typescript-eslint/explicit-function-return-type": [
 			"error",
 			{
@@ -61,6 +62,7 @@
 		"@typescript-eslint/naming-convention": "warn",
 		"@typescript-eslint/no-inferrable-types": "off",
 		"@typescript-eslint/no-shadow": "error",
+		"no-shadow": "off",
 		"@typescript-eslint/prefer-for-of": "error",
 		"@typescript-eslint/type-annotation-spacing": "error",
 		"@typescript-eslint/typedef": [
@@ -68,18 +70,18 @@
 			{
 				"parameter": true,
 				"arrowParameter": true,
-				"propertyDeclaration":true,
+				"propertyDeclaration": true,
 				"memberVariableDeclaration": true
 			}
 		],
 		"@typescript-eslint/semi": ["error", "always"],
+		"semi": "off",
 		"arrow-body-style": "off",
 		"brace-style": [ "error",
 			"1tbs"
 		],
 		"curly": "error",
 		"constructor-super": "error",
-		"dot-notation": "off",
 		"eol-last": ["error", "always"],
 		"eqeqeq": [
 			"error",
@@ -98,10 +100,6 @@
 			"Undefined",
 			"undefined"
 		],
-		"max-classes-per-file": [
-		        "error",
-		        1
-		],
 		"max-depth": [
 			"error",
 			{ "max" : 5 }
@@ -115,7 +113,7 @@
 				"ignoreStrings":  true,
 				"ignoreTemplateLiterals": true,
 				"ignoreRegExpLiterals": true,
-				"ignorePattern": "^import |^export \\{(.*?)\\}|class [a-zA-Z]+ implements"
+				"ignorePattern": "^import |^export |^interface [a-zA-Z]+ \\{(.*?)\\}|^class [a-zA-Z]+ implements"
 			}
 		],
 		"max-lines": [
@@ -161,13 +159,11 @@
 		"no-underscore-dangle": "off",
 		"no-unused-expressions": "error",
 		"no-useless-concat": "error",
-		"no-shadow": "off",
 		"no-var": "error",
 		"quotes": [
 			"warn",
 			"single"
 		],
-		"prefer-template": "error",
-		"semi": "off"
+		"prefer-template": "error"
 	}
 }
