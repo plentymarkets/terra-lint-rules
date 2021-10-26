@@ -19,6 +19,10 @@
 		"url": "https://github.com/plentymarkets/terra-lint-rules/issues"
 	},
 	"homepage": "https://github.com/plentymarkets/terra-lint-rules#readme",
+	"peerDependencies": {
+		"@angular-eslint/eslint-plugin": ">=12.5.0",
+		"@typescript-eslint/eslint-plugin": ">=4.28.2"
+	},
 	"devDependencies": {
 		"gulp": "^4.0.2",
 		"gulp-prompt": "^1.2.0",
