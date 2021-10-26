@@ -46,9 +46,7 @@
 			}
 		],
 		"@angular-eslint/no-conflicting-lifecycle": "off",
-		"@angular-eslint/no-input-rename": "error",
 		"@angular-eslint/no-output-on-prefix": "error",
-		"@angular-eslint/no-output-rename": "error",
 		"@angular-eslint/use-lifecycle-interface": "error",
 		"@angular-eslint/use-pipe-transform-interface": "error",
 		"@typescript-eslint/array-type": [
