@@ -148,11 +148,6 @@
 			"error",
 			"rxjs/internal",
 			"rxjs/index",
-			"ngx-bootstrap/tooltip",
-			"@angular/material/tooltip",
-			"@angular/material/grid-list",
-			"@angular/material/bottom-sheet",
-			"@angular/material/snack-bar",
 			"src/app/**"
 		],
 		"no-trailing-spaces": "error",
