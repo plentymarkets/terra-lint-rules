@@ -118,8 +118,22 @@
 				"ignorePattern": "^import |^export \\{(.*?)\\}|class [a-zA-Z]+ implements"
 			}
 		],
-		"max-lines": [ "error" , 450],
-		"max-lines-per-function": ["error", 75],
+		"max-lines": [
+			"error" ,
+			{
+				"max": 450,
+				"skipComments": true,
+				"skipBlankLines": true
+			}
+		],
+		"max-lines-per-function": [
+			"error",
+			{
+				"max": 75,
+				"skipComments": true,
+				"skipBlankLines": true
+			}
+		],
 		"no-bitwise": "off",
 		"no-caller": "error",
 		"no-empty": "error",
