@@ -29,14 +29,6 @@
 				"style": "kebab-case"
 			}
 		],
-		"@angular-eslint/directive-class-suffix": [
-			"error",
-			{
-				"suffixes": [
-					"Directive"
-				]
-			}
-		],
 		"@angular-eslint/directive-selector": [
 			"error",
 			{
