@@ -1,0 +1,164 @@
+{
+	"rules": {
+		"@angular-eslint/component-max-inline-declarations": [
+			"error",
+			{
+				"animations": 20,
+				"styles": 1,
+				"template": 1
+			}
+		],
+		"@angular-eslint/component-selector": [
+			"error",
+			{
+				"type": "element",
+				"prefix": [
+					"terra"
+				],
+				"style": "kebab-case"
+			}
+		],
+		"@angular-eslint/directive-selector": [
+			"error",
+			{
+				"type": "attribute",
+				"prefix": "",
+				"style": "camelCase"
+			}
+		],
+		"@angular-eslint/no-conflicting-lifecycle": "off",
+		"@angular-eslint/no-output-on-prefix": "error",
+		"@angular-eslint/use-lifecycle-interface": "error",
+		"@angular-eslint/use-pipe-transform-interface": "error",
+		"@typescript-eslint/array-type": [
+			"error",
+			{
+				"default": "generic"
+			}
+		],
+		"@typescript-eslint/dot-notation": "off",
+		"dot-notation": "off",
+		"@typescript-eslint/explicit-function-return-type": [
+			"error",
+			{
+				"allowExpressions": true
+			}
+		],
+		"@typescript-eslint/member-delimiter-style": "off",
+		"@typescript-eslint/member-ordering": [
+			"error",
+			{
+				"default": [
+					"public-static-field",
+					"protected-static-field",
+					"private-static-field",
+					"public-instance-field",
+					"protected-instance-field",
+					"private-instance-field",
+					"constructor"
+				]
+			}
+		],
+		"@typescript-eslint/naming-convention": "warn",
+		"@typescript-eslint/no-inferrable-types": "off",
+		"@typescript-eslint/no-shadow": "error",
+		"no-shadow": "off",
+		"@typescript-eslint/prefer-for-of": "error",
+		"@typescript-eslint/type-annotation-spacing": "error",
+		"@typescript-eslint/typedef": [
+			"error",
+			{
+				"parameter": true,
+				"arrowParameter": true,
+				"propertyDeclaration": true,
+				"memberVariableDeclaration": true
+			}
+		],
+		"@typescript-eslint/semi": ["error", "always"],
+		"semi": "off",
+		"arrow-body-style": "off",
+		"brace-style": [ "error",
+			"1tbs"
+		],
+		"curly": "error",
+		"constructor-super": "error",
+		"eol-last": ["error", "always"],
+		"eqeqeq": [
+			"error",
+			"smart"
+		],
+		"guard-for-in": "error",
+		"id-denylist": [
+			"error",
+			"any",
+			"Number",
+			"number",
+			"String",
+			"string",
+			"Boolean",
+			"boolean",
+			"Undefined",
+			"undefined"
+		],
+		"max-depth": [
+			"error",
+			{ "max" : 5 }
+		],
+		"max-len": [
+			"error",
+			{
+				"code": 150,
+				"ignoreComments":  true,
+				"ignoreUrls":  true,
+				"ignoreStrings":  true,
+				"ignoreTemplateLiterals": true,
+				"ignoreRegExpLiterals": true,
+				"ignorePattern": "^import |^export |^interface [a-zA-Z]+ \\{(.*?)\\}|^class [a-zA-Z]+ implements"
+			}
+		],
+		"max-lines": [
+			"error" ,
+			{
+				"max": 450,
+				"skipComments": true,
+				"skipBlankLines": true
+			}
+		],
+		"max-lines-per-function": [
+			"error",
+			{
+				"max": 75,
+				"skipComments": true,
+				"skipBlankLines": true
+			}
+		],
+		"no-bitwise": "off",
+		"no-caller": "error",
+		"no-empty": "error",
+		"no-empty-function": [
+			"error",
+			{"allow" : ["constructors"]}
+		],
+		"no-eval": "error",
+		"no-extra-boolean-cast": "warn",
+		"no-fallthrough": "error",
+		"no-labels": "error",
+		"no-redeclare": "error",
+		"no-restricted-imports": [
+			"error",
+			"rxjs/internal",
+			"rxjs/index",
+			"src/app/**"
+		],
+		"no-trailing-spaces": "error",
+		"no-underscore-dangle": "off",
+		"no-unused-expressions": "error",
+		"no-useless-concat": "error",
+		"no-var": "error",
+		"quotes": [
+			"warn",
+			"single"
+		],
+		"prefer-template": "error"
+	}
+}
