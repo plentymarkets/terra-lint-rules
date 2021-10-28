@@ -104,18 +104,6 @@
 			"error",
 			{ "max" : 5 }
 		],
-		"max-len": [
-			"error",
-			{
-				"code": 150,
-				"ignoreComments":  true,
-				"ignoreUrls":  true,
-				"ignoreStrings":  true,
-				"ignoreTemplateLiterals": true,
-				"ignoreRegExpLiterals": true,
-				"ignorePattern": "^import |^export |^interface [a-zA-Z]+ \\{(.*?)\\}|^class [a-zA-Z]+ implements"
-			}
-		],
 		"max-lines": [
 			"error" ,
 			{
