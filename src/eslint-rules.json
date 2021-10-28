@@ -64,7 +64,6 @@
 		"@typescript-eslint/no-shadow": "error",
 		"no-shadow": "off",
 		"@typescript-eslint/prefer-for-of": "error",
-		"@typescript-eslint/type-annotation-spacing": "error",
 		"@typescript-eslint/typedef": [
 			"error",
 			{
