@@ -150,7 +150,6 @@
 			"rxjs/index",
 			"src/app/**"
 		],
-		"no-trailing-spaces": "error",
 		"no-underscore-dangle": "off",
 		"no-unused-expressions": "error",
 		"no-useless-concat": "error",
