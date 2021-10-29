@@ -85,7 +85,7 @@
 		"semi": "off",
 		"arrow-body-style": "off",
 		"brace-style": [ "error",
-			"stroustrup"
+			"1tbs"
 		],
 		"curly": "error",
 		"constructor-super": "error",
