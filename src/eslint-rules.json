@@ -59,7 +59,14 @@
 				]
 			}
 		],
-		"@typescript-eslint/naming-convention": "warn",
+		"@typescript-eslint/naming-convention": [
+			"warn",
+			[
+				"camelCase",
+				"snake_case",
+				"UPPER_CASE"
+			]
+		],
 		"@typescript-eslint/no-inferrable-types": "off",
 		"@typescript-eslint/no-shadow": "error",
 		"no-shadow": "off",
@@ -78,7 +85,7 @@
 		"semi": "off",
 		"arrow-body-style": "off",
 		"brace-style": [ "error",
-			"1tbs"
+			"stroustrup"
 		],
 		"curly": "error",
 		"constructor-super": "error",
@@ -152,12 +159,16 @@
 		],
 		"no-trailing-spaces": "error",
 		"no-underscore-dangle": "off",
-		"no-unused-expressions": "error",
+		"no-unused-expressions": [
+			"error",
+			{ "allowTernary": true }
+		],
 		"no-useless-concat": "error",
 		"no-var": "error",
 		"quotes": [
 			"warn",
-			"single"
+			"single",
+			{ "allowTemplateLiterals": true }
 		],
 		"prefer-template": "error"
 	}
