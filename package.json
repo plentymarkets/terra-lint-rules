@@ -1,6 +1,6 @@
 {
 	"name": "@plentymarkets/terra-lint-rules",
-	"version": "2.2.2",
+	"version": "2.1.2",
 	"description": "custom eslint rules",
 	"scripts": {
 		"release": "gulp updateVersion && gulp copy && npm publish dist"
