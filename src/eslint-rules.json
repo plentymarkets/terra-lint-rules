@@ -26,6 +26,9 @@
 				"style": "camelCase"
 			}
 		],
+		"@angular-eslint/no-host-metadata-property": "off",
+		"@angular-eslint/no-input-rename": "off",
+		"@angular-eslint/no-output-rename": "off",
 		"@angular-eslint/no-conflicting-lifecycle": "off",
 		"@angular-eslint/no-output-on-prefix": "error",
 		"@angular-eslint/use-lifecycle-interface": "error",
@@ -61,11 +64,15 @@
 		],
 		"@typescript-eslint/naming-convention": [
 			"warn",
-			[
-				"camelCase",
-				"snake_case",
-				"UPPER_CASE"
-			]
+			{
+				"selector": "variable",
+				"format": [
+					"camelCase",
+					"snake_case",
+					"UPPER_CASE"
+				],
+				"leadingUnderscore": "allow"
+			}
 		],
 		"@typescript-eslint/no-inferrable-types": "off",
 		"@typescript-eslint/no-shadow": "error",
