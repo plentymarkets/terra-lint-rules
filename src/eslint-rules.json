@@ -173,6 +173,16 @@
 		"no-redeclare": "error",
 		"no-restricted-imports": [
 			"error",
+			{ "paths": [{
+				"name": "util",
+				"importNames": ["isNullOrUndefined"],
+				"message": "Please use `value == null` or `value != null` instead."
+			}]},
+			{ "paths": [{
+				"name": "util",
+				"importNames": ["isFunction", "isObject", "isNull", "isUndefined", "isPrimitive", "isString", "isNumber", "isBoolean"],
+				"message": "Please use `typeof value === 'yourType'` instead. Or consult docs for better alternative."
+			}]},
 			"rxjs/internal",
 			"rxjs/index",
 			"src/app/**"
